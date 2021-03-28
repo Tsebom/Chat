@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <GridPane fx:controller="sample.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="100" vgap="200">
-    <AnchorPane >
         <VBox alignment="TOP_CENTER" >
             <TextArea fx:id="conversation" prefWidth="200" prefHeight="300" wrapText="true"/>
             <HBox>
@@ -17,6 +16,4 @@
                 <Button text="Send"  onAction="#click" alignment="BOTTOM_RIGHT"/>
             </HBox>
         </VBox>
-    </AnchorPane>
-
 </GridPane>
