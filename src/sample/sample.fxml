@@ -1,0 +1,19 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="100" vgap="200">
+        <VBox alignment="TOP_CENTER" >
+            <TextArea fx:id="conversation" prefWidth="200" prefHeight="300" wrapText="true"/>
+            <HBox>
+                <TextField fx:id="textMassage" prefWidth="200" onAction="#click"/>
+                <Button text="Send"  onAction="#click" alignment="BOTTOM_RIGHT"/>
+            </HBox>
+        </VBox>
+</GridPane>
