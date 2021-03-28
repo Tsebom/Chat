@@ -11,6 +11,9 @@ public class Controller {
     @FXML
     public TextArea conversation;
 
+    /**
+     * Processing action click
+     */
     @FXML
     public void click() {
         if (!textMassage.getText().equals("")) {
